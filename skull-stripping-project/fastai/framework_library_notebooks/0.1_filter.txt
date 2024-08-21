@@ -1,0 +1,4 @@
++ */T1.nii.gz
++ */T1_biascorr.nii.gz
++ */T1_biascorr_brain_mask.nii.gz
+- */**

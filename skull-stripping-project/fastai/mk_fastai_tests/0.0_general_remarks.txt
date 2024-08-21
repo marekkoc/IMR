@@ -1,0 +1,28 @@
+uwagi ogolne:
+
+1) 
+Dane 3D sa przechowywane jako float64? Czy da sie je zamienic na float 32? skad roznica w wielkosci pomiedzy katalogiem train-3d-iso a poszczegolnymi katalogami axial-2d, coronal-2d, sagittal-2d. Katalog train-3d-iso jest prawie 20x wiekszy.
+
+33G     axial-2d
+35G     coronal-2d
+3G     sagittal-2d
+501G    train-3d-iso
+
+1.A) jest okolo 4 miliony obrazow (wypisac ile jest dla axial, coronal, saggital)
+
+2) trenowanie na sag,cor,tra, all 
+    -Test, na innych modalnoasciach
+    - progresiver resizing / wd / flipping / 
+    - t1 vs t1_biascorr
+    - different size of training + validation sets
+    
+3. utowrzyc funkcje:
+    - ktora generuje nazwy do moleli, zastanowic sie czy za zawrzec wszystko w nazwie, czy dodawac numery i tylko opisy i bedzie funkcja ktora wypisze wszyskot o danym modelu?
+    - ktora wypisuje wszystkie model i ich parametry 
+    
+    
+4) rozmiar parametru size w transforam? rectangel or square? Dopasowany do kazdego obrazu?
+5) odwrocic coronal i saggital o 90 zeby byly bardziej naturalne????
+
+
+
