@@ -1,6 +1,6 @@
 # IMR
 
-Some of my GitHub repositries:
+Selected of GitHub repositries:
 
 1. [Kiwi project](https://github.com/marekkoc/Kiwi2021)
 2. [Kidney Segmentation](https://github.com/MMIV-ML/KidneySegm/tree/master)
