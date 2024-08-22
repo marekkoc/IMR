@@ -1,4 +1,4 @@
-# Institure of Marine Research - interview 2024.08.22
+# Institute of Marine Research - interview 2024.08.22
 
 Link to this repo: https://github.com/marekkoc/imr
 
